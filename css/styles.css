@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-bottom: 80px;
+  font-family: avenir;
+  background-color: rgb(243, 243, 243);
+}
+#nav_bar {
+  border-bottom: 1px solid #ccc;
+}
+
+nav,
+.nav_links {
+  display: flex;
+}
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+}
+
+.nav_links {
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration: color(white);
+}
+.logo {
+  margin-right: 50%;
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+
+.btn_countenr {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  padding-left: 5px;
+}
+.btn_countenr a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 1px solid rgb(75, 65, 65);
+  text-decoration: none;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+}
+.btn_countenr a:hover {
+  transform: scale(1.1);
+  background-color: rgb(75, 65, 65);
+  color: white;
+}
+section {
+  padding-top: 30px;
+  height: 200px;
+  margin: 0 250px;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  height: 300px;
+}
+.section_text {
+  padding-top: 110px;
+}
+.Profile_pic {
+  display: flex;
+  height: 480px;
+  width: 480px;
+}
+.title {
+  display: flex;
+  font-size: 100px;
+  font-family: worksans-semibold, "work sans", sans-serif;
+}
+.section_text_p1 {
+  font-size: 20px;
+  font-family: worksans-semibold, "work sans", sans-serif;
+  color: rgb(75, 65, 65);
+}
+.section_text_p2 {
+  font-size: 16px;
+
+  color: rgb(75, 65, 65);
+}
+
+/* footer*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  gap: 230px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+#footer_bar div {
+  margin-bottom: 20px;
+}
+
+#footer_bar h4 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.phnum {
+  font-weight: bold;
+}
+.footer_SociolMedia h4 {
+  display: flex;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.CopyR {
+  margin-top: 10px;
+}
+
+.CopyR span {
+  font-weight: bold;
+}

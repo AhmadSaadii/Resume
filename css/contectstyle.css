@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-bottom: 150px;
+  height: 845;
+  width: 856;
+  font-family: avenir;
+  background-color: rgb(243, 243, 243);
+}
+#nav_bar {
+  border-bottom: 1px solid #ccc;
+}
+nav,
+.nav_links {
+  display: flex;
+}
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+}
+
+.nav_links {
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration: color(white);
+}
+.logo {
+  margin-right: 50%;
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+/* contect body */
+.ContectHeader {
+  text-align: start;
+  font-size: 20px;
+  padding-top: 155px;
+  padding-left: 155px;
+  font-family: worksans-semibold, "work sans", sans-serif;
+}
+.PhoneHeader {
+  text-align: start;
+  padding-top: 50px;
+  padding-left: 155px;
+}
+.EmailHeader {
+  text-align: start;
+  padding-left: 155px;
+}
+/* contect form */
+.CotectForm {
+  display: flex;
+  position: relative;
+  bottom: 100px;
+  padding-left: 700px;
+}
+input {
+  display: block;
+  display: inline;
+  padding: 10px;
+  border: solid black;
+  margin-top: 10px;
+  gap: 5px;
+}
+.EmailForm {
+  display: block;
+  display: inline;
+  padding-left: 40px;
+}
+.MessageForm {
+  display: block;
+  justify-content: initial;
+  position: relative;
+  left: 13px;
+}
+.Message {
+  width: 300px;
+  height: 140px;
+}
+.Fname,
+.Lname,
+.Email,
+.Subject {
+  width: 215px;
+  height: 45px;
+}
+.SubjectLabel {
+  padding-left: 21px;
+}
+.submitClick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 1px solid rgb(75, 65, 65);
+  text-decoration: none;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+}
+.submitClick:hover {
+  transform: scale(1.1);
+  background-color: rgb(75, 65, 65);
+  color: white;
+}
+.submitClick {
+  position: relative;
+  left: 450px;
+  bottom: 150px;
+}
+/* footer*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  gap: 230px;
+  position: absolute;
+  top: 900px;
+
+  left: 0;
+  right: 0;
+  border-top: 1px solid #ccc;
+}
+
+#footer_bar div {
+  margin-bottom: 20px;
+}
+
+#footer_bar h4 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.phnum {
+  font-weight: bold;
+}
+.footer_SociolMedia h4 {
+  display: flex;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.CopyR {
+  margin-top: 10px;
+}
+
+.CopyR span {
+  font-weight: bold;
+}

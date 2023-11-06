@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-bottom: 80px;
+  height: 845;
+  width: 856;
+  font-family: avenir;
+  background-color: rgb(243, 243, 243);
+}
+#nav_bar {
+  border-bottom: 1px solid #ccc;
+}
+nav,
+.nav_links {
+  display: flex;
+}
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+}
+
+.nav_links {
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration: color(white);
+}
+.logo {
+  margin-right: 50%;
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+/* WORKEXPERIENCE */
+.header {
+  text-align: start;
+  font-size: 20px;
+  padding-top: 155px;
+  padding-left: 155px;
+  font-family: worksans-semibold, "work sans", sans-serif;
+}
+.WorkExperience {
+  display: flex;
+  gap: 30%;
+  padding-left: 155px;
+  padding-top: 75px;
+}
+.MOAVT h2 {
+  font-size: 18px;
+}
+.MOAVT {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+.WorkExperience_countener {
+  padding-left: 780px;
+  width: 340px;
+}
+.MOSSC {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding-left: 730px;
+  padding-top: 10px;
+}
+.MOSSC h2 {
+  font-size: 18px;
+}
+
+.SSIUCL {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding-left: 730px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #ccc;
+}
+
+.SSIUCL h2 {
+  font-size: 18px;
+}
+.Education {
+  display: flex;
+  gap: 450px;
+  padding-left: 155px;
+  padding-top: 30px;
+}
+.Poly {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+.Poly h2 {
+  font-size: 18px;
+}
+.HighScool {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding-left: 677px;
+  padding-top: 10px;
+}
+.HighScool h2 {
+  font-size: 18px;
+}
+.UniOfJeddah {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding-left: 655px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.UniOfJeddah h2 {
+  font-size: 18px;
+}
+.Skills {
+  display: flex;
+  gap: 550px;
+  padding-left: 155px;
+  padding-top: 30px;
+  margin-bottom: 199px;
+}
+
+/* footer*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  gap: 230px;
+  position: absolute;
+  top: 1199px;
+
+  left: 0;
+  right: 0;
+  border-top: 1px solid #ccc;
+}
+
+#footer_bar div {
+  margin-bottom: 20px;
+}
+
+#footer_bar h4 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.phnum {
+  font-weight: bold;
+}
+.footer_SociolMedia h4 {
+  display: flex;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.CopyR {
+  margin-top: 10px;
+}
+
+.CopyR span {
+  font-weight: bold;
+}
